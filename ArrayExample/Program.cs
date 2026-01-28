@@ -14,9 +14,17 @@
             fruits[5] = "dragon fruit";
             fruits[6] = "watermellon";
             //fruits[7] = "tangerine"; out of range causes it to crash
+            //write all fruits
+            for (int i = 0; i <= 6; i++)
+            {
+            Console.WriteLine(fruits[i]);
 
-            Console.WriteLine(fruits[3]);
-
+            }
+            foreach (string fruit in fruits)
+            {
+                Console.WriteLine(fruit);
+            }
+            
 
             
             
